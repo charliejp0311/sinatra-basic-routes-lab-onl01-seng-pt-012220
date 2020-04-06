@@ -5,12 +5,12 @@ class App < Sinatra::Base
     "Hello, World!"
   end
   get "/name" do
-    "Charlie Pelton"
+    "My name is Charlie Pelton"
   end
   get "/hometown" do
-    "DeKalb, IL"
+    "My home town is DeKalb, IL"
   end
   get "/favorite-song" do
-    "Immigrant Song - Led Zepplin"
+    "My favorite song is 'Immigrant Song' by Led Zepplin"
   end
 end
